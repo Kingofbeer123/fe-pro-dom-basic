@@ -1,6 +1,6 @@
 export const paintCards = () => {
-    const lis = document.querySelectorAll('.item:nth-child(odd)');
-    for (let li of lis) {
+    let oddLis = document.querySelectorAll('.item:nth-child(odd)');
+    for (let li of oddLis) {
       li.style.backgroundColor = 'red';
     }
 };
