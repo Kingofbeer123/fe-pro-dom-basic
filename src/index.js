@@ -6,9 +6,9 @@ export const paintCards = () => {
 };
 
 export const findElement = () => {
-    let items = document.querySelectorAll('.item');
+    let elements = document.querySelectorAll('.item');
     let elem = document.querySelectorAll('item:first-child');
-    for (let a = 0; a < items.length; a++) {
+    for (let a = 0; a < elements.length; a++) {
         if (elem.matches('.lickedItem')) {
             elem.style.backgroundcolor = 'blue';
         }
